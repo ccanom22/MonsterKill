@@ -1,6 +1,6 @@
 package juego;
 
-public class Heroes {
+public class Heroe {
  	private String nombre;
 	private int vida, ataque, curacion;
 	
