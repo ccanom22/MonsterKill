@@ -1,12 +1,11 @@
 package juego;
-
-public class HeroesEnemigos {
- private Heroes heroes;
+public class HeroeEnemigo {
+	private Heroe enemigo;
 	private byte idEnemigos;
 
-	public HeroEnemigos(Heroes heroes, byte idEnemigos) {
+	public HeroeEnemigo(Heroe heroe, byte idEnemigos) {
 		super();
-		this.heroes = heroes;
+		this.enemigo = heroe;
 		this.idEnemigos = idEnemigos;
 	}
 
@@ -16,9 +15,7 @@ public class HeroesEnemigos {
 
 	
 
-	public Heroes getHeroes() {
-		return heroes;
+	public Heroe getHeroes() {
+		return enemigo;
 	}
-	
-  
 }
