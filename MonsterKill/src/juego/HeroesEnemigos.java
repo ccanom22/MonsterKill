@@ -10,13 +10,13 @@ public class HeroesEnemigos {
 		this.idEnemigos = idEnemigos;
 	}
 
-	private byte getIdEnemigos() {
+	public byte getIdEnemigos() {
 		return idEnemigos;
 	}
 
 	
 
-	private Heroes getHeroes() {
+	public Heroes getHeroes() {
 		return heroes;
 	}
 	
