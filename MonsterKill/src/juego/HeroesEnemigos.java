@@ -14,9 +14,7 @@ public class HeroesEnemigos {
 		return idEnemigos;
 	}
 
-	private void setIdEnemigos(byte idEnemigos) {
-		this.idEnemigos = idEnemigos;
-	}
+	
 
 	private Heroes getHeroes() {
 		return heroes;
