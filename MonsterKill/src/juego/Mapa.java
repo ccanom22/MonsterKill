@@ -11,7 +11,12 @@ public class Mapa {
 		int[] ataque = {90,70,50};
 		int[] curacion = {70,60,50};
 	}
-
+	public void crearHeroe() {
+	 	String nombres[] = {"Arquero","Mago","Caballero","Asesino","Lancero"};
+		 int ataques[]= {80,60,70,90,75};
+	 	int vidas[]= {325,325,450,275,450};
+	 	int curaciones[]= {20,50,30,40,30};
+	}
 	
 	public void luchar() {
 		
