@@ -6,10 +6,10 @@ import java.util.Scanner;
 public class Mapa {
 
 	public void crearEnemigo(){
-		String[] nombre = {"Dragon", "Ogro", "Duende"};
-		int[] vida = {500,300,175};
-		int[] ataque = {90,70,50};
-		int[] curacion = {70,60,50};
+		String[] nombre = {"Dragon", "Ogro", "Duende", "Vampiro"};
+		int[] vida = {500,300,175,200};
+		int[] ataque = {90,70,50,60};
+		int[] curacion = {70,60,50,80};
 	}
 	public void crearHeroe() {
 	 	String nombres[] = {"Arquero","Mago","Caballero","Asesino","Lancero"};
